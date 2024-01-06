@@ -10,7 +10,7 @@ def array_info(arr):
     """
     returns ndims, *lengths
     """
-    if not isinstance(arr, (list, tuple, set)):
+    if not isinstance(arr, (list, tuple, set, frozenset)):
         return (0,)
     subs = set([array_info(elem) for elem in arr])
     if len(subs) > 1:
