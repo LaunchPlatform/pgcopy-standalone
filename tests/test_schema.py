@@ -1,6 +1,5 @@
-from pgcopy import CopyManager
-
 from . import test_datatypes
+from .copy_manager import CopyManager
 
 
 class TestPublicSchema(test_datatypes.TypeMixin):

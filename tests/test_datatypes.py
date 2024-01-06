@@ -3,19 +3,14 @@ from __future__ import unicode_literals
 
 import decimal
 import json
-import sys
 import uuid
 
+import psycopg2.extensions
 import pytest
 
-if sys.version_info < (3,):
-    memoryview = buffer
-
-import psycopg2.extensions
-
-from pgcopy import CopyManager, util
-
 from . import db
+from .copy_manager import CopyManager
+from pgcopy import util
 
 
 def test_connection_encoding(conn):

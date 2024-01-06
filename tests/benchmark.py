@@ -1,8 +1,7 @@
 from timeit import default_timer
 
-from pgcopy import CopyManager
-
 from . import db
+from .copy_manager import CopyManager
 
 
 class PGCopyBenchmark(db.TemporaryTable):

@@ -1,8 +1,7 @@
 from io import BytesIO
 
-from pgcopy import CopyManager
-
 from . import db
+from .copy_manager import CopyManager
 
 
 class TestSanity(db.TemporaryTable):

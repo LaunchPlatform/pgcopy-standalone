@@ -1,8 +1,7 @@
 import pytest
 
-from pgcopy import CopyManager
-
 from . import db
+from .copy_manager import CopyManager
 
 
 class TestErrors(db.TemporaryTable):

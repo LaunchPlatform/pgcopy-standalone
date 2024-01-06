@@ -1,7 +1,6 @@
 from io import BytesIO
 
-from pgcopy import CopyManager
-
+from .copy_manager import CopyManager
 from .test_datatypes import TypeMixin
 
 
