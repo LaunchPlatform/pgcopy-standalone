@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pgcopy-standalone"
-version = "0.1.0"
+version = "1.6.0"
 description = "Fast db insert with postgresql binary copy (fork of pgcopy) without psycopg2 dependency"
 authors = ["Aryeh Leib Taurog <python@aryehleib.com>", "Fang-Pen Lin <hello@fangpenlin.com>"]
 license = "MIT"
